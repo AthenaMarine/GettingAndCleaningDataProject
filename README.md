@@ -4,7 +4,7 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 1) a tidy data set as described below, 
 2) a script for performing the data tidying, 
 3) a code book that describes the variables, the data, and any transformations or work performed to clean up the data called CodeBook.md. 
-4) a SCRIPT_README.md that explains how the script works.  
+4) an R markdown file called SCRIPT_README.Rmd that explains how the script works.  
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
