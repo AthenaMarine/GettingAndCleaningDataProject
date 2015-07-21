@@ -1,7 +1,4 @@
-
-author: "athenamarine"
-date: "July 21, 2015"
----
+#run_analysis.R README
 
 The <b><i>run_analysis.R</i></b> script converts the UCI HAR Dataset downloaded from: <link>https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</link> into a single tidy data file.
 
