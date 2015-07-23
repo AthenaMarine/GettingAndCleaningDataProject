@@ -24,7 +24,7 @@ df_activ_names <- read.table("activity_labels.txt", col.names=c("activity", "act
 # load the data in from the train subdirectory
 setwd("./train")
 df_train_subj <- read.table("subject_train.txt", col.names="subjects")
-df_train_x <- read.table("X_train.txt", col.names=x_names)
+df_train_x <- read.table("X_train.txt", col.names=x_names, check.names=FALSE)
 df_train_y <- read.table("y_train.txt", col.names="activity")
 
 # create a table that joins the activities recorded in train_y.txt 
@@ -37,12 +37,12 @@ activity_train_df <- join(df_train_y, df_activ_names, by= "activity", type="left
 train_table <- data.table(df_train_x, activity_train_df, df_train_subj) %>%
     # select the subjects and activities fields, and only those fields 
     # that provide a mean and standard deviation measurement
-    select(subjects, activities, contains(".mean"), contains(".std"))     
+    select(subjects, activities, contains("-mean()"), contains("-std()"))     
 
 # load the data in from the test subdirectory
 setwd("../test")
 df_test_subj <- read.table("subject_test.txt", col.names="subjects")
-df_test_x <- read.table("X_test.txt", col.names=x_names)
+df_test_x <- read.table("X_test.txt", col.names=x_names, check.names=FALSE)
 df_test_y <- read.table("y_test.txt", col.names="activity")
 
 # create a table that joins the activities recorded in test_y.txt 
@@ -55,7 +55,7 @@ activity_test_df <- join(df_test_y, df_activ_names, by= "activity", type="left",
 test_table <- data.table(df_test_x, activity_test_df, df_test_subj) %>%
     # select the subjects and activities fields, and only those fields 
     # that provide a mean and standard deviation measurement
-    select(subjects, activities, contains(".mean"), contains(".std"))     
+    select(subjects, activities, contains("-mean()"), contains("-std()"))     
 
 # merge the train and test table rows together.
 combined <- rbind(train_table, test_table)
