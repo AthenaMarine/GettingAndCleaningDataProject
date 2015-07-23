@@ -40,6 +40,566 @@ The subjects field provides a unique id for each subject.
 
 The activites field provides the type of activity that occurred.
 
+<table border=0 cellpadding=0 cellspacing=0 width=858>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 width=65 style='height:15.0pt;width:65pt'>ROW</td>
+  <td width=160 style='width:160pt'>FIELD_NAME</td>
+  <td width=95 style='width:95pt'>DATA_TYPE</td>
+  <td width=81 style='width:81pt'>DATA_LENGT<span style='display:none'>H</span></td>
+  <td width=240 style='width:132pt'>DATA_EXAMPLE</td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>1</td>
+  <td>subjects</td>
+  <td>num</td>
+  <td align=right>1</td>
+  <td>1, 2, 3, …, 30</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>2</td>
+  <td>activities</td>
+  <td>chr</td>
+  <td align=right>18</td>
+  <td colspan=6 style='mso-ignore:colspan'>LAYING, SITTING, STANDING, WALKING,
+  WALKING_UPSTAIRS, WALKING_DOWNST<span style='display:none'>AIRS</span></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>3</td>
+  <td>tBodyAcc.mean...X</td>
+  <td>num</td>
+  <td align=right>9</td>
+  <td align=right>0.2215982</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>4</td>
+  <td>tBodyAcc.mean...Y</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.040513953</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>5</td>
+  <td>tBodyAcc.mean...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.11320355</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>6</td>
+  <td>tGravityAcc.mean...X</td>
+  <td>num</td>
+  <td align=right>10</td>
+  <td align=right>-0.2488818</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>7</td>
+  <td>tGravityAcc.mean...Y</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>0.705549773</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>8</td>
+  <td>tGravityAcc.mean...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>0.44581772</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>9</td>
+  <td>tBodyAccJerk.mean...X</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>0.08108653</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>10</td>
+  <td>tBodyAccJerk.mean...Y</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>0.00384</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>11</td>
+  <td>tBodyAccJerk.mean...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>0.0108</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>12</td>
+  <td>tBodyGyro.mean...X</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.016553094</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>13</td>
+  <td>tBodyGyro.mean...Y</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.064486124</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>14</td>
+  <td>tBodyGyro.mean...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>0.148689436</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>15</td>
+  <td>tBodyGyroJerk.mean...X</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.10727095</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>16</td>
+  <td>tBodyGyroJerk.mean...Y</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.04151729</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>17</td>
+  <td>tBodyGyroJerk.mean...Z</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.074050121</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>18</td>
+  <td>tBodyAccMag.mean..</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.841929153</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>19</td>
+  <td>tGravityAccMag.mean..</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.841929153</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>20</td>
+  <td>tBodyAccJerkMag.mean..</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.954396265</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>21</td>
+  <td>tBodyGyroMag.mean..</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.874759548</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>22</td>
+  <td>tBodyGyroJerkMag.mean..</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.96346103</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>23</td>
+  <td>fBodyAcc.mean...X</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.93909905</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>24</td>
+  <td>fBodyAcc.mean...Y</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.867065205</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>25</td>
+  <td>fBodyAcc.mean...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.88266688</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>26</td>
+  <td>fBodyAccJerk.mean...X</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.957073884</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>27</td>
+  <td>fBodyAccJerk.mean...Y</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.92246261</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>28</td>
+  <td>fBodyAccJerk.mean...Z</td>
+  <td>num</td>
+  <td align=right>10</td>
+  <td align=right>-0.9480609</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>29</td>
+  <td>fBodyGyro.mean...X</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.85024917</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>30</td>
+  <td>fBodyGyro.mean...Y</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.95219149</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>31</td>
+  <td>fBodyGyro.mean...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.90930272</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>32</td>
+  <td>fBodyAccMag.mean..</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.861767648</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>33</td>
+  <td>fBodyBodyAccJerkMag.mea<span style='display:none'>n..</span></td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.933300361</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>34</td>
+  <td>fBodyBodyGyroMag.mean..</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.862190185</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>35</td>
+  <td>fBodyBodyGyroJerkMag.me<span style='display:none'>an..</span></td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.94236695</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>36</td>
+  <td>tBodyAcc.std...X</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.928056469</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>37</td>
+  <td>tBodyAcc.std...Y</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.836827406</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>38</td>
+  <td>tBodyAcc.std...Z</td>
+  <td>num</td>
+  <td align=right>10</td>
+  <td align=right>-0.8260614</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>39</td>
+  <td>tGravityAcc.std...X</td>
+  <td>num</td>
+  <td align=right>8</td>
+  <td align=right>-0.89683</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>40</td>
+  <td>tGravityAcc.std...Y</td>
+  <td>num</td>
+  <td align=right>8</td>
+  <td align=right>-0.90772</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>41</td>
+  <td>tGravityAcc.std...Z</td>
+  <td>num</td>
+  <td align=right>10</td>
+  <td align=right>-0.8523663</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>42</td>
+  <td>tBodyAccJerk.std...X</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.958482112</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>43</td>
+  <td>tBodyAccJerk.std...Y</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.924149274</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>44</td>
+  <td>tBodyAccJerk.std...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.95485511</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>45</td>
+  <td>tBodyGyro.std...X</td>
+  <td>num</td>
+  <td align=right>10</td>
+  <td align=right>-0.8735439</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>46</td>
+  <td>tBodyGyro.std...Y</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.95109044</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>47</td>
+  <td>tBodyGyro.std...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.90828466</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>48</td>
+  <td>tBodyGyroJerk.std...X</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.91860852</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>49</td>
+  <td>tBodyGyroJerk.std...Y</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.96790724</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>50</td>
+  <td>tBodyGyroJerk.std...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.95779016</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>51</td>
+  <td>tBodyAccMag.std..</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.79514486</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>52</td>
+  <td>tGravityAccMag.std..</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.79514486</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>53</td>
+  <td>tBodyAccJerkMag.std..</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.92824563</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>54</td>
+  <td>tBodyGyroMag.std..</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.81901017</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>55</td>
+  <td>tBodyGyroJerkMag.std..</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.93584098</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>56</td>
+  <td>fBodyAcc.std...X</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.924437435</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>57</td>
+  <td>fBodyAcc.std...Y</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.833625556</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>58</td>
+  <td>fBodyAcc.std...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.81289156</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>59</td>
+  <td>fBodyAccJerk.std...X</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.964160709</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>60</td>
+  <td>fBodyAccJerk.std...Y</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.93221787</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>61</td>
+  <td>fBodyAccJerk.std...Z</td>
+  <td>num</td>
+  <td align=right>12</td>
+  <td align=right>-0.960586987</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>62</td>
+  <td>fBodyGyro.std...X</td>
+  <td>num</td>
+  <td align=right>10</td>
+  <td align=right>-0.8822965</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>63</td>
+  <td>fBodyGyro.std...Y</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.95123205</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>64</td>
+  <td>fBodyGyro.std...Z</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.91658251</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>65</td>
+  <td>fBodyAccMag.std..</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.79830094</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>66</td>
+  <td>fBodyBodyAccJerkMag.std..</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.92180398</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>67</td>
+  <td>fBodyBodyGyroMag.std..</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.82431944</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=15 style='height:15.0pt'>
+  <td height=15 align=right style='height:15.0pt'>68</td>
+  <td>fBodyBodyGyroJerkMag.std..</td>
+  <td>num</td>
+  <td align=right>11</td>
+  <td align=right>-0.93266067</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+</table>
+
+</body>
+
+</html>
+
+# Table in plain text - HTML stripped.
+
   FIELD_NAME                     DATA_TYPE    DATA_LENGTH   DATA_EXAMPLE
 1 subjects                        : num  	  1			    1 2 3 4 5 ... 30
 2 activities                      : chr  	  18            "LAYING" "SITTING" "STANDING" "WALKING" "WALKING_UPSTAIRS" "WALKING_DOWNSTAIRS"
