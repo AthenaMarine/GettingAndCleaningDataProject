@@ -1,11 +1,11 @@
 Measurement Selection 
 =================
 
-The tidy dataset was derived from the UCI HAR Dataset.  Details on how the measurements were calculated can be found in the features_info.txt file included in the raw dataset.
+The tidy dataset was derived from the UCI HAR Dataset.  Details on how the measurements were calculated can be found in the features_info.txt file included with the raw dataset.
 
 The tidy dataset was downselected to contain only those measurements from the UCI HAR Dataset that represent the average calculated mean or standard deviation by subject for a particular type of activity.  All other measurement types have been excluded.
 
-measurement data may be positive or negative to nine decimal places.
+measurement data may be positive or negative and may have up to nine decimal places.
 
 Measurement field naming convention
 =============================
@@ -28,7 +28,7 @@ A prefix 'f' denotes a frequency domain signal
 'Y' denotes a y-axis signal
 'Z' denotes a z-axis signal
 
-(tBodyAcc-XYZ and tGravityAcc-XYZ)
+Field name examples: "tBodyAcc-mean()-X", "tGravityAcc-std()-Z"
 
 'Jerk' denotes a signal of body linear acceleration and angular velocity in time
 'Mag' denotes the magnitude of these three-dimensional signals signals). 
@@ -595,7 +595,7 @@ The activites field provides the type of activity that occurred.
  </tr>
 </table>
 
-# Table in plain text - HTML stripped.
+# Codebook table in plain text - HTML stripped.
 
   FIELD_NAME                     DATA_TYPE  DATA_LENGTH   DATA_EXAMPLE
 1 subjects                        : num  	  1			          1 2 3 4 5 ... 30
